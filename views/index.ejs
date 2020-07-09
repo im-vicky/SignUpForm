@@ -1,0 +1,27 @@
+<%- include("partials/header") %>
+<form action="/" method="post" class="signup-form">
+  <h1>Sign Up</h1>
+  <div class="textbox">
+    <input
+      type="text"
+      name="fname"
+      placeholder="First Name"
+      autocomplete="off"
+    />
+  </div>
+  <div class="textbox">
+    <input
+      type="text"
+      name="lname"
+      placeholder="Last Name"
+      autocomplete="off"
+    />
+  </div>
+  <div class="textbox">
+    <input type="email" name="email" placeholder="Email" />
+  </div>
+  <div>
+    <button class="btn" type="submit">Sign Me Up</button>
+  </div>
+</form>
+<%- include("partials/footer") %>
